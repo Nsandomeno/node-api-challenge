@@ -1,6 +1,7 @@
 
 // imports
 const express = require('express');
+const cors = require('cors')
 // data
 const Projects = require('./data/helpers/projectModel.js');
 const Actions = require('./data/helpers/actionModel.js');
@@ -11,6 +12,7 @@ const Actions = require('./data/helpers/actionModel.js');
 const server = express()
 // global middleware
 server.use(express.json())
+server.use(cors())
 // server.use("/api/projects/:id/actions", actionRouter)
 
 // route handlers
