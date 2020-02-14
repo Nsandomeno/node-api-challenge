@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    Two parts of expressed I learned this week were how to set up a server with routes and how to incorporate middleware.
+
 - [ ] Describe Middleware?
+
+    Middleware is a way to extend the functionality of express. There are multiple types: built-in, third-party, and custom. They can also be catagorized into regular or error handling middlewares. Middleware extracts logic from route handler functions, makes code more DRY/human readable.
 
 - [ ] Describe a Resource?
 
+    A resource is anything related to the purpose of your server program. In this sprint projects are resources and on top of project there is another resource actions.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    An api can return status codes and messages to let the client know if the message was successful.
+
 - [ ] How can we partition our application into sub-applications?
+
+    We can partition our application into sub-applications by using routers/routes. Micro services is another way to divide the application in a more concrete way.
 
 ## Minimum Viable Product
 
